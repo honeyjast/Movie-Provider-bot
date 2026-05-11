@@ -1,10 +1,11 @@
-# Main Dependencies
+# Main Dependencies - STRICT PINS
 pyrogram>=2.0.30
 tgcrypto
 pymongo[srv]==3.12.3
 motor==2.5.1
 umongo==3.1.0
 marshmallow==3.14.1
+dnspython==2.3.0
 
 # Required for the bot
 requests
@@ -27,11 +28,10 @@ ffmpeg-python>=0.2.0
 opencv-python-headless
 numpy
 ujson
-dnspython==2.3.0
 
 # Cinemagoer
 git+https://github.com/Joelkb/cinemagoer
 
 # Others
 shortzy
-python-decouplepython-decouple
+python-decouple
