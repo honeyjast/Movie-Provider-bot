@@ -1,4 +1,4 @@
-# Main Dependencies - STRICT PINS
+# Main Dependencies
 pyrogram>=2.0.30
 tgcrypto
 pymongo[srv]==3.12.3
@@ -24,14 +24,12 @@ Pillow
 psutil
 humanize
 pytz
-ffmpeg-python>=0.2.0
+ffmpeg-python
 opencv-python-headless
 numpy
 ujson
 
-# Cinemagoer
+# External
 git+https://github.com/Joelkb/cinemagoer
-
-# Others
 shortzy
 python-decouple
