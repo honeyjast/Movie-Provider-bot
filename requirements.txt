@@ -1,13 +1,10 @@
-# Main Dependencies
-pyrogram>=2.0.30
-tgcrypto
-pymongo[srv]==3.12.3
+pymongo==3.12.3
 motor==2.5.1
 umongo==3.1.0
 marshmallow==3.14.1
 dnspython==2.3.0
-
-# Required for the bot
+pyrogram==2.0.106
+tgcrypto
 requests
 beautifulsoup4
 python-dotenv
@@ -18,8 +15,6 @@ pyromod
 jinja2
 pyshorteners
 colorama
-
-# Utils
 Pillow
 psutil
 humanize
@@ -28,8 +23,6 @@ ffmpeg-python
 opencv-python-headless
 numpy
 ujson
-
-# External
-git+https://github.com/Joelkb/cinemagoer
 shortzy
 python-decouple
+git+https://github.com/Joelkb/cinemagoer
