@@ -1,30 +1,37 @@
+# Main Dependencies
 pyrogram>=2.0.30
 tgcrypto
-pymongo[srv]>=4.6.0
-motor>=3.3.0
-marshmallow==3.14.1
+pymongo[srv]==3.12.3
+motor==3.2.0
 umongo==3.0.1
+marshmallow==3.14.1
+
+# Required for the bot
 requests
 beautifulsoup4
-git+https://github.com/Joelkb/cinemagoer
-shortzy
 python-dotenv
 aiohttp
 aiofiles
-pytz
 apscheduler
 pyromod
 jinja2
 pyshorteners
-psutil
+colorama
+
+# Utils
 Pillow
+psutil
 humanize
+pytz
 ffmpeg-python>=0.2.0
 opencv-python-headless
 numpy
 ujson
 dnspython
 
-# Remove or comment these old ones
-# motor==2.5.1
-# pymongo[srv]==3.12.3
+# Cinemagoer
+git+https://github.com/Joelkb/cinemagoer
+
+# Others
+shortzy
+python-decouple
