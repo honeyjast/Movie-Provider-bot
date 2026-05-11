@@ -2,8 +2,8 @@
 pyrogram>=2.0.30
 tgcrypto
 pymongo[srv]==3.12.3
-motor==3.2.0
-umongo==3.0.1
+motor==2.5.1
+umongo==3.1.0
 marshmallow==3.14.1
 
 # Required for the bot
@@ -27,11 +27,11 @@ ffmpeg-python>=0.2.0
 opencv-python-headless
 numpy
 ujson
-dnspython
+dnspython==2.3.0
 
 # Cinemagoer
 git+https://github.com/Joelkb/cinemagoer
 
 # Others
 shortzy
-python-decouple
+python-decouplepython-decouple
