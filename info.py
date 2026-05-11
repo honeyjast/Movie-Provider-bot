@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '24952158'))
 API_HASH = environ.get('API_HASH', '6a79817ee14d9e034b7a1bd18ef4ee93')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7281479371:AAEnf8BZs2Y-ESTNpBMTls0ty8VrcCxI4KU")
+BOT_TOKEN = environ.get('BOT_TOKEN', '7281479371:AAEnf8BZs2Y-ESTNpBMTls0ty8VrcCxI4KU')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -52,8 +52,8 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False)) # True if you want n
 # MongoDB information 
 # https://youtu.be/qFB0cFqiyOM?si=QGuFSZ7qhxl4VTrA
 
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://HoneyJast:HoneyJastGaming@honeyjast.44gpqyl.mongodb.net/?appName=HoneyJast")
-DATABASE_NAME = environ.get('DATABASE_NAME', "HoneyJast")
+DATABASE_URI = environ.get('DATABASE_URI', 'mongodb+srv://HoneyJast:HoneyJastGaming@honeyjast.44gpqyl.mongodb.net/?appName=HoneyJast')
+DATABASE_NAME = environ.get('DATABASE_NAME', 'HoneyJast')
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Verify/token system
@@ -136,7 +136,7 @@ OWNER_USERNAME = "LazyDeveloper"
 
 
 # add premium logs channel id
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002062925443'))
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002318581241'))
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
